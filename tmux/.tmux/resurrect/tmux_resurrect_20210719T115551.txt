@@ -1,0 +1,8 @@
+pane	freelance	0	:nvim	1	:*	0	:/home/alpha/development/eventioner	0	nvim	:nvim
+pane	freelance	0	:nvim	1	:*	1	:/home/alpha/development/eventioner	1	zsh	:zsh
+pane	freelance	0	:nvim	1	:*	2	:/home/alpha/development/discord-admin-api	0	zsh	:
+pane	me	0	:zsh	1	:*	0	:/home/alpha/.dotfiles	1	zsh	:zsh
+pane	me	0	:zsh	1	:*	1	:/home/alpha/.dotfiles	0	nvim	:nvim deploy.sh
+window	freelance	0	1	:*	f3af,159x43,0,0{79x43,0,0,1,79x43,80,0[79x21,80,0,2,79x21,80,22,5]}
+window	me	0	1	:*	cc50,159x40,0,0{79x40,0,0,3,79x40,80,0,4}
+state	freelance	me

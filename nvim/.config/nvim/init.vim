@@ -1,6 +1,9 @@
 " plugins---
 call plug#begin('~/.vim/plugged')
 
+Plug 'uiiaoo/java-syntax.vim'
+Plug 'tpope/vim-commentary'
+Plug 'agreco/vim-citylights'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
@@ -69,7 +72,7 @@ set laststatus=2
 set background=dark
 set number
 set termguicolors
-let ayucolor="mirage"
+let ayucolor="dark"
 colo dracula 
 set cursorline
 "set cursorcolumn
