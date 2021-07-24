@@ -1,8 +1,2 @@
 #/usr/bin/sh
-stow -v -t $HOME \
-	tmux \
-	zsh \
-	bash \
-	vim \
-	env \
-	alias
+stow -v -t $HOME */

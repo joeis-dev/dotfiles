@@ -1,2 +1,2 @@
 #/usr/bin/sh
-stow -D -v -t $HOME tmux vim
+stow -D -v -t $HOME *

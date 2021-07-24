@@ -253,3 +253,33 @@ echo $PATH
 zsh
 nvim .zshrc
 zsh
+cat /etc/X11/xorg.conf
+xrandr -s 1600x900
+zsh
+ls
+chsh
+chsh
+cd /etc/X11/
+ls
+ls -l
+ls -l xinit
+cat xinit/Xsession 
+cd
+ls
+cat .profile 
+ls 
+cat .bash_profile 
+cat .bashrc 
+nv .bashrc 
+nvim .bashrc 
+bash
+nvim .bash_profile
+chsh
+ls 
+rm which2.sh 
+rm -f which2.sh 
+bash
+whereis zsh
+chsh
+logout
+zsh
