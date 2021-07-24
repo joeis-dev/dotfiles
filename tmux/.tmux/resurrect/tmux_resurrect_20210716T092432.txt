@@ -1,7 +1,0 @@
-pane	freelance	0	:nvim	1	:*Z	0	:/home/alpha/development/discord-admin-api	1	nvim	:zsh
-pane	freelance	0	:nvim	1	:*Z	1	:/home/alpha/development/discord-web-admin/discord-web-admin	0	bash	:
-pane	me	0	:zsh	1	:*Z	0	:/home/alpha	1	bash	:
-pane	me	0	:zsh	1	:*Z	1	:/home/alpha/development/react-tutorial/my-app	0	bash	:
-window	freelance	0	1	:*Z	eefb,145x36,0,0{72x36,0,0,1,72x36,73,0,2}
-window	me	0	1	:*Z	ef04,145x36,0,0{72x36,0,0,3,72x36,73,0,4}
-state	freelance	me

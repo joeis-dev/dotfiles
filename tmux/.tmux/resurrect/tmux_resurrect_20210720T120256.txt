@@ -1,8 +1,0 @@
-pane	freelance	0	:nvim	1	:*	0	:/home/alpha/development/eventioner	0	nvim	:zsh
-pane	freelance	0	:nvim	1	:*	1	:/home/alpha/development/eventioner	0	zsh	:zsh
-pane	freelance	0	:nvim	1	:*	2	:/home/alpha/development/eventioner	1	zsh	:zsh
-pane	me	0	:zsh	1	:*Z	0	:/opt/custom_packages/jetbrains/jetbrains-toolbox-1.21.9547	1	zsh	:zsh
-pane	me	0	:zsh	1	:*Z	1	:/home/alpha/.dotfiles	0	nvim	:nvim deploy.sh
-window	freelance	0	1	:*	1f63,159x40,0,0{79x40,0,0,1,79x40,80,0[79x19,80,0,2,79x20,80,20,5]}
-window	me	0	1	:*Z	cc50,159x40,0,0{79x40,0,0,3,79x40,80,0,4}
-state	freelance	me

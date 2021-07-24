@@ -1,6 +1,0 @@
-pane	1	0	:bash	1	:*	0	:/home/alpha	1	bash	:
-pane	me	0	:zsh	1	:*Z	0	:/home/alpha	1	zsh	:zsh
-pane	me	0	:zsh	1	:*Z	1	:/home/alpha/development/react-tutorial/my-app	0	zsh	:zsh
-window	1	0	1	:*	ae3e,159x30,0,0,1
-window	me	0	1	:*Z	18d6,159x35,0,0{79x35,0,0,0,79x35,80,0,2}
-state	me	1

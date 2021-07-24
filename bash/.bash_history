@@ -191,3 +191,65 @@ zsh
 tmux
 zsh
 zsh
+neofetch
+tmux a
+tmux ls
+ls
+zsh
+sudo pkill -9 latte-dock
+top
+sudo pkill -9 latte-dock
+sudo dnf remove latte-dock
+zsh
+ls
+zsh
+szh
+zsh
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ls .oh-my-zsh/themes/
+ls -l .oh-my-zsh/themes/
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+sudo git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+sudo ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+zsh
+ls
+nvim .zshrc
+zsh
+ln -sf "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+cd
+ln -sf "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+cd .oh-my-zsh/custom/
+ls
+ls themes/
+ls
+cd themes/
+ls
+cat spaceship
+cat spaceship.zsh-theme 
+ls
+ls -l
+rm spaceship.zsh-theme 
+ls
+ls -l
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+ls
+ls -l
+ls -l spaceship-prompt/
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+ls
+cd 
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+nvim .zcfg
+nvim .zshrc
+zsh
+ls
+cd 
+cd ..
+ls
+zcfg
+nv .zshrc
+echo $PATH
+zsh
+nvim .zshrc
+zsh

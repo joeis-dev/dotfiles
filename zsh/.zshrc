@@ -9,10 +9,21 @@ source "$HOME/.env"
 source "$HOME/.alias"
 export ZSH="/home/alpha/.oh-my-zsh"
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="spaceship"
 #ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(git)
+plugins=(
+	git
+	zsh-autosuggestions
+)
 source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+fpath=($fpath "/home/alpha/.zfunctions")
+
+# Set Spaceship ZSH as a prompt (NPM installation)
+# autoload -U promptinit; promptinit
+# prompt spaceship
+
+
+# Startship (Curl installation)
+eval "$(starship init zsh)"
