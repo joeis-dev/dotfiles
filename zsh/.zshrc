@@ -21,12 +21,14 @@ source $ZSH/oh-my-zsh.sh
 fpath=($fpath "/home/alpha/.zfunctions")
 
 # Set Spaceship ZSH as a prompt (NPM installation)
-# autoload -U promptinit; promptinit
-# prompt spaceship
+# https://github.com/spaceship-prompt/spaceship-prompt/blob/master/docs/options.md
+autoload -U promptinit; promptinit
+prompt spaceship
+SPACESHIP_CHAR_SYMBOL="❯ "
 
 
 # Startship (Curl installation)
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

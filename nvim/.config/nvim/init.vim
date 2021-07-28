@@ -70,11 +70,11 @@ set wrap
 " UI options
 set laststatus=2
 set background=dark
-set number
+set relativenumber
 set termguicolors
 let ayucolor="dark"
 colo dracula 
-set cursorline
+"set cursorline
 "set cursorcolumn
 "set relativenumber
 
@@ -113,3 +113,6 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
+" NeerdTree
+let NERDTreeShowHidden=1

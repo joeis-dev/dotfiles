@@ -285,3 +285,11 @@ logout
 zsh
 conda --v
 exit
+whereis xtrlock
+bash -c "sleep 1 && xtrlock"
+bash -c "sleep 1 && /usr/bin/xtrlock"
+bash
+cd /usr/bin/xtrlock/
+ls
+./xtrlock 
+sleep 1 && ./xtrlock 
