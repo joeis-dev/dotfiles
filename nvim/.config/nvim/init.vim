@@ -72,6 +72,7 @@ set laststatus=2
 set background=dark
 set relativenumber
 set termguicolors
+let g:dracula_colorterm = 0
 let ayucolor="dark"
 colo dracula 
 "set cursorline
