@@ -293,3 +293,6 @@ cd /usr/bin/xtrlock/
 ls
 ./xtrlock 
 sleep 1 && ./xtrlock 
+st
+git status
+exit
