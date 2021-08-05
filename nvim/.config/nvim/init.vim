@@ -75,7 +75,7 @@ set termguicolors
 let g:dracula_colorterm = 0
 let ayucolor="dark"
 colo dracula 
-"set cursorline
+set cursorline
 "set cursorcolumn
 "set relativenumber
 

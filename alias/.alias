@@ -1,5 +1,4 @@
 alias nv=$EDITOR
-alias st="git status"
 alias zcfg="$EDITOR $HOME/.zshrc"
 alias vicfg="$EDITOR $HOME/.config/nvim/init.vim"
 alias mine="java -jar $CUSTOM_PACKAGES/minecraft/TLauncher-2.8.jar"
@@ -14,7 +13,11 @@ alias logout="pkill -u $USER"
 alias rdir="rm -fRv"
 alias rm="rm -fv"
 alias updategrub="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
-alias docker="podman"
+#alias docker="podman"
 alias pps="podman ps --format=$PODMAN_FORMAT"
 alias conda-update="conda update -n base -c defaults conda"
+
+# git
 alias glog="git log --graph --oneline"
+alias gmit="git commit -m"
+alias gst="git status"
