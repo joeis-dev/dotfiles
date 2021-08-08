@@ -47,3 +47,4 @@ unset __conda_setup
 
 # Disables base env
 conda config --set auto_activate_base false
+fpath=($fpath "/home/alpha/.zfunctions")
