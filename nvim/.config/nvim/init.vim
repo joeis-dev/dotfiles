@@ -1,6 +1,7 @@
 " plugins---
 call plug#begin('~/.vim/plugged')
 
+Plug 'tpope/vim-fugitive' 
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'tpope/vim-commentary'
 Plug 'agreco/vim-citylights'
@@ -75,7 +76,7 @@ set termguicolors
 let g:dracula_colorterm = 0
 let ayucolor="dark"
 colo dracula 
-set cursorline
+"set cursorline
 "set cursorcolumn
 "set relativenumber
 
@@ -114,6 +115,10 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
+" Git status
+let g:airline#extensions#hunks#enabled=0
+let g:airline#extensions#branch#enabled=1
 
 " NeerdTree
 let NERDTreeShowHidden=1

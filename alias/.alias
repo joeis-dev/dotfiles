@@ -21,3 +21,7 @@ alias conda-update="conda update -n base -c defaults conda"
 alias glog="git log --graph --oneline"
 alias gmit="git commit -m"
 alias gst="git status"
+
+# Custom packages 
+alias pom="$CUSTOM_PACKAGES/pomodoro"
+# alias btd="$CUSTOM_PACKAGES/BetterDiscord-Linux.AppImage" 

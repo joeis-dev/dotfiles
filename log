@@ -1,0 +1,11 @@
+* 27d6ee5 dotfiles folder env variable added
+* 760d2f5 Dracula vim background color solved
+* 0068f6d Added alias for docker<>podman
+* 60fd413 Conda config added
+* 2c233ec Solved zsh issue at start DE with xorg
+* 90673f6 Removed test folder
+* 4b16639 Removed non dotfiles from of vim package
+* 89ac6fb Removed non dotfiles of tmux
+* 96a56a5 Alias for youtube-dl audio extraction was added
+* 3b817e8 Bash config added
+* 4efb468 Added nvim config

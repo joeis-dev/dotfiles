@@ -1,14 +1,15 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
+bindkey -s "^L" 'ls^M'
 
 source "$HOME/.env"
 source "$HOME/.alias"
 export ZSH="/home/alpha/.oh-my-zsh"
-#ZSH_THEME="robbyrussell"
+# ZSH_THEME="lambda"
 #ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
 	git
@@ -17,11 +18,11 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-fpath=($fpath "/home/alpha/.zfunctions")
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Set Spaceship ZSH as a prompt (NPM installation)
-# https://github.com/spaceship-prompt/spaceship-prompt/blob/master/docs/options.md
+# # Set Spaceship ZSH as a prompt (NPM installation)
+# # https://github.com/spaceship-prompt/spaceship-prompt/blob/master/docs/options.md
+fpath=($fpath "/home/alpha/.zfunctions")
 autoload -U promptinit; promptinit
 prompt spaceship
 SPACESHIP_CHAR_SYMBOL="❯ "
@@ -45,5 +46,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# Disables base env
+# Disables base env in global mode
 conda config --set auto_activate_base false
+
+# IBM Cli autocompletion
+source "/usr/local/ibmcloud/autocomplete/zsh_autocomplete"
