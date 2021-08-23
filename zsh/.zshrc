@@ -22,7 +22,6 @@ source $ZSH/oh-my-zsh.sh
 
 # # Set Spaceship ZSH as a prompt (NPM installation)
 # # https://github.com/spaceship-prompt/spaceship-prompt/blob/master/docs/options.md
-fpath=($fpath "/home/alpha/.zfunctions")
 autoload -U promptinit; promptinit
 prompt spaceship
 SPACESHIP_CHAR_SYMBOL="❯ "
@@ -51,3 +50,4 @@ conda config --set auto_activate_base false
 
 # IBM Cli autocompletion
 source "/usr/local/ibmcloud/autocomplete/zsh_autocomplete"
+fpath=($fpath "/home/alpha/.zfunctions")
