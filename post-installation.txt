@@ -1,0 +1,4 @@
+1) Install vim plug and the plugins: https://github.com/junegunn/vim-plug#neovim (After clone the repo restart nvim a couple of times)
+
+
+PD: add .tmux.conf to the staw project
