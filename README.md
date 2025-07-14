@@ -11,6 +11,24 @@ If you'd like to get rid of all the symbolic links that Stow created in your hom
 $ stow -v -t -D $HOME .
 
 ```` 
+
+# Local Development & Authentication
+
+This repository includes a `sync.sh` script to automate backing up your dotfiles to GitHub. To use it, you'll need to provide your GitHub credentials in a local `.env` file.
+
+1.  **Create the `.env` file:**
+    In the root of this repository, create a file named `.env`.
+
+2.  **Add your credentials:**
+    Add the following lines to the `.env` file, replacing the placeholder values with your actual GitHub username and a [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token):
+
+    ```bash
+    export GITHUB_USER="your_github_username"
+    export GITHUB_TOKEN="your_personal_access_token"
+    ```
+
+    **Important:** The `.env` file is included in the `.gitignore` and will not be committed to the repository.
+
 # Prepare dot files to be stow 
 ```` 
 $ stow -v -t $HOME .
