@@ -1,5 +1,8 @@
 #!/bin/bash
 
+exec > >(tee -a $HOME/repositories/dotfiles/log/sync_cron.log) 2>&1
+set -x
+
 cd $HOME/repositories/dotfiles
 
 if [ -f "$HOME/repositories/dotfiles/.env" ]; then
