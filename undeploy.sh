@@ -1,2 +1,2 @@
 #/usr/bin/sh
-stow -D -v -t $HOME alias bash env nvim tmux vim zsh profile
+stow -D -v -t $HOME alias bash env nvim tmux vim zsh
